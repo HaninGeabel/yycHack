@@ -12,7 +12,7 @@ import {
     CardBody, Heading, CardHeader, StackDivider
 } from '@chakra-ui/react'
 import {useState} from 'react'
-import { Search2Icon, Icon, ExternalLinkIcon} from '@chakra-ui/icons'
+import { Search2Icon, Icon} from '@chakra-ui/icons'
 import {Navigate, useNavigate} from "react-router-dom"
 
 
@@ -91,7 +91,7 @@ const Dashboard = () => {
                 <CardFooter>
                     <ButtonGroup spacing='2'>
                         <Button className="click-button" variant='solid' colorScheme='blue' onClick={handleClickTop}>
-                            <ExternalLinkIcon/>
+                            Click for More!
                         </Button>
 
                     </ButtonGroup>
@@ -118,7 +118,7 @@ const Dashboard = () => {
                 <CardFooter>
                     <ButtonGroup spacing='2'>
                         <Button className="click-button"variant='solid' colorScheme='blue' onClick={handleClickSports}>
-                        <ExternalLinkIcon/>
+                           Click for More!
                         </Button>
                     </ButtonGroup>
                 </CardFooter>
@@ -142,7 +142,7 @@ const Dashboard = () => {
                 <CardFooter>
                     <ButtonGroup spacing='2'>
                         <Button className="click-button" variant='solid' colorScheme='blue' onClick={handleClickArt}>
-                        <ExternalLinkIcon/>
+                            Click for More!
                         </Button>
 
                     </ButtonGroup>
@@ -167,7 +167,7 @@ const Dashboard = () => {
                 <CardFooter>
                     <ButtonGroup spacing='2'>
                         <Button className="click-button" variant='solid' colorScheme='blue' >
-                        <ExternalLinkIcon/>
+                            Click for More!
                         </Button>
 
                     </ButtonGroup>
